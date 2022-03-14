@@ -16,4 +16,15 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
 
+  li {
+    list-style: none;
+  }
+
+  a,button {
+    text-decoration: none;
+    :hover {
+      cursor: pointer;
+    }
+  }
+
 `;
