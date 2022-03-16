@@ -7,7 +7,7 @@ export const Container = styled.div`
   right: 0;
   width: 100%;
   height: 70px;
-  padding: 0 25px;
+  padding: 0 15px;
   @media (max-width: 500px) {
     padding: 0 15px;
   }
@@ -15,6 +15,8 @@ export const Container = styled.div`
   nav {
     width: 100%;
     height: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
